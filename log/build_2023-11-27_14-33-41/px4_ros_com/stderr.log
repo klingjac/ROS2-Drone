@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:189 (file):
+  file INSTALL cannot find
+  "/home/klingjac/ws_offboard_control/src/px4_ros_com/examples/models": No
+  such file or directory.
+
+[0m

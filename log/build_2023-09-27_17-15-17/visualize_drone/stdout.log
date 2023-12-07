@@ -1,0 +1,25 @@
+running egg_info
+creating ../../build/visualize_drone/visualize_drone.egg-info
+writing ../../build/visualize_drone/visualize_drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/visualize_drone/visualize_drone.egg-info/dependency_links.txt
+writing entry points to ../../build/visualize_drone/visualize_drone.egg-info/entry_points.txt
+writing requirements to ../../build/visualize_drone/visualize_drone.egg-info/requires.txt
+writing top-level names to ../../build/visualize_drone/visualize_drone.egg-info/top_level.txt
+writing manifest file '../../build/visualize_drone/visualize_drone.egg-info/SOURCES.txt'
+reading manifest file '../../build/visualize_drone/visualize_drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/visualize_drone/visualize_drone.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/klingjac/ws_offboard_control/build/visualize_drone/build
+creating /home/klingjac/ws_offboard_control/build/visualize_drone/build/lib
+creating /home/klingjac/ws_offboard_control/build/visualize_drone/build/lib/visualize_drone
+copying visualize_drone/__init__.py -> /home/klingjac/ws_offboard_control/build/visualize_drone/build/lib/visualize_drone
+running install
+running install_lib
+creating /home/klingjac/ws_offboard_control/install/visualize_drone/lib/python3.10/site-packages/visualize_drone
+copying /home/klingjac/ws_offboard_control/build/visualize_drone/build/lib/visualize_drone/__init__.py -> /home/klingjac/ws_offboard_control/install/visualize_drone/lib/python3.10/site-packages/visualize_drone
+byte-compiling /home/klingjac/ws_offboard_control/install/visualize_drone/lib/python3.10/site-packages/visualize_drone/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/klingjac/ws_offboard_control/install/visualize_drone/share/ament_index
+creating /home/klingjac/ws_offboard_control/install/visualize_drone/share/ament_index/resource_index
+creating /home/klingjac/ws_offboard_control/install/visualize_drone/share/ament_index/resource_index/packages

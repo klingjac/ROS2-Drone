@@ -1,0 +1,25 @@
+[0.470s] Invoking command in '/home/klingjac/ws_offboard_control/src/px4_visualize': AMENT_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/klingjac/ws_offboard_control/build/px4_offboard/prefix_override:/home/klingjac/ws_offboard_control/install/px4_offboard/lib/python3.10/site-packages:/home/klingjac/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/klingjac/ws_offboard_control/build/px4_offboard/build install --record /home/klingjac/ws_offboard_control/build/px4_offboard/install.log --single-version-externally-managed
+[0.589s] running egg_info
+[0.589s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[0.589s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[0.590s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[0.590s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[0.590s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[0.592s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.592s] adding license file 'LICENSE'
+[0.593s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.593s] running build
+[0.593s] running build_py
+[0.593s] running install
+[0.593s] /home/klingjac/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.593s]   warnings.warn(
+[0.593s] running install_lib
+[0.595s] running install_data
+[0.595s] running install_egg_info
+[0.596s] removing '/home/klingjac/ws_offboard_control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info' (and everything under it)
+[0.596s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/klingjac/ws_offboard_control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[0.597s] running install_scripts
+[0.609s] Installing offboard_control script to /home/klingjac/ws_offboard_control/install/px4_offboard/lib/px4_offboard
+[0.610s] Installing visualizer script to /home/klingjac/ws_offboard_control/install/px4_offboard/lib/px4_offboard
+[0.610s] writing list of installed files to '/home/klingjac/ws_offboard_control/build/px4_offboard/install.log'
+[0.625s] Invoked command in '/home/klingjac/ws_offboard_control/src/px4_visualize' returned '0': AMENT_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/klingjac/ws_offboard_control/build/px4_offboard/prefix_override:/home/klingjac/ws_offboard_control/install/px4_offboard/lib/python3.10/site-packages:/home/klingjac/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/klingjac/ws_offboard_control/build/px4_offboard/build install --record /home/klingjac/ws_offboard_control/build/px4_offboard/install.log --single-version-externally-managed

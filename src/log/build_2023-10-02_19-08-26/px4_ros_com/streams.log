@@ -1,0 +1,24 @@
+[0.107s] Invoking command in '/home/klingjac/ws_offboard_control/src/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/klingjac/ws_offboard_control/src/build/px4_ros_com -- -j20 -l20
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[0.169s] [ 20%] Built target sensor_combined_listener
+[0.172s] [ 40%] Built target frame_transforms
+[0.174s] [ 60%] Built target debug_vect_advertiser
+[0.178s] [ 80%] Built target vehicle_gps_position_listener
+[0.181s] [ 90%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[0.331s] [01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:178:1:[m[K [01;31m[Kerror: [m[Kunterminated comment
+[0.331s]   178 | [01;31m[K/[m[K**
+[0.331s]       | [01;31m[K^[m[K
+[2.283s] [01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[2.283s] [01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:89:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kx[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.283s]    89 |                 msg.position = {[01;35m[Kx[m[K, y, -3.0}; // Maintain a height of 5 meters
+[2.283s]       |                                 [01;35m[K^[m[K
+[2.283s] [01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:89:36:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ky[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.283s]    89 |                 msg.position = {x, [01;35m[Ky[m[K, -3.0}; // Maintain a height of 5 meters
+[2.283s]       |                                    [01;35m[K^[m[K
+[2.283s] [01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:81:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.283s]    81 |                 const double [01;35m[Kangular_speed[m[K = 0.2; // Angular speed in radians per second
+[2.284s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[3.093s] gmake[2]: *** [CMakeFiles/offboard_control.dir/build.make:76: CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] Error 1
+[3.094s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/offboard_control.dir/all] Error 2
+[3.094s] gmake: *** [Makefile:146: all] Error 2
+[3.096s] Invoked command in '/home/klingjac/ws_offboard_control/src/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/klingjac/ws_offboard_control/src/build/px4_ros_com -- -j20 -l20

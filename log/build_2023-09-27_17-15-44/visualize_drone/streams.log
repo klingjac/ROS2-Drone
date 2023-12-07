@@ -1,0 +1,16 @@
+[0.372s] Invoking command in '/home/klingjac/ws_offboard_control/src/visualize_drone': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/klingjac/ws_offboard_control/build/visualize_drone/prefix_override:/home/klingjac/ws_offboard_control/install/visualize_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/visualize_drone build --build-base /home/klingjac/ws_offboard_control/build/visualize_drone/build install --record /home/klingjac/ws_offboard_control/build/visualize_drone/install.log --single-version-externally-managed
+[0.502s] running egg_info
+[0.503s] writing ../../build/visualize_drone/visualize_drone.egg-info/PKG-INFO
+[0.503s] writing dependency_links to ../../build/visualize_drone/visualize_drone.egg-info/dependency_links.txt
+[0.503s] writing entry points to ../../build/visualize_drone/visualize_drone.egg-info/entry_points.txt
+[0.503s] writing requirements to ../../build/visualize_drone/visualize_drone.egg-info/requires.txt
+[0.503s] writing top-level names to ../../build/visualize_drone/visualize_drone.egg-info/top_level.txt
+[0.504s] reading manifest file '../../build/visualize_drone/visualize_drone.egg-info/SOURCES.txt'
+[0.504s] writing manifest file '../../build/visualize_drone/visualize_drone.egg-info/SOURCES.txt'
+[0.504s] running build
+[0.504s] running build_py
+[0.505s] running install
+[0.505s] running install_lib
+[0.505s] running install_data
+[0.506s] error: can't copy 'resource/visualize_drone': doesn't exist or not a regular file
+[0.520s] Invoked command in '/home/klingjac/ws_offboard_control/src/visualize_drone' returned '1': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/klingjac/ws_offboard_control/build/visualize_drone/prefix_override:/home/klingjac/ws_offboard_control/install/visualize_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/visualize_drone build --build-base /home/klingjac/ws_offboard_control/build/visualize_drone/build install --record /home/klingjac/ws_offboard_control/build/visualize_drone/install.log --single-version-externally-managed

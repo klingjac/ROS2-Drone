@@ -1,0 +1,8 @@
+[01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/traj_plot/drone_position_plotter.cpp:[m[K In member function ‘[01m[Kvoid DronePositionPlotter::attitude_callback(px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/traj_plot/drone_position_plotter.cpp:59:46:[m[K [01;31m[Kerror: [m[K‘[01m[KtoMsg[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   59 |         drone_marker.pose.orientation = tf2::[01;31m[KtoMsg[m[K(drone_orientation);
+      |                                              [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/drone_position_plotter.dir/build.make:76: CMakeFiles/drone_position_plotter.dir/src/examples/traj_plot/drone_position_plotter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/drone_position_plotter.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,54 @@
+[0.065s] Invoking command in '/home/klingjac/ws_offboard_control/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/home/klingjac/ws_offboard_control/install/px4_ros_com:/opt/ros/humble:/home/klingjac/ws_offboard_control/install/px4_offboard LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/klingjac/ws_offboard_control/install/px4_ros_com/lib /usr/bin/cmake --build /home/klingjac/ws_offboard_control/build/px4_ros_com -- -j20 -l20
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target drone_position_plotter[0m
+[0.092s] [ 33%] Built target vehicle_gps_position_listener
+[0.092s] [ 33%] Built target frame_transforms
+[0.093s] [ 66%] Built target sensor_combined_listener
+[0.093s] [ 66%] Built target offboard_control
+[0.093s] [ 83%] Built target debug_vect_advertiser
+[0.097s] [ 91%] [32mBuilding CXX object CMakeFiles/drone_position_plotter.dir/src/examples/traj_plot/drone_position_plotter.cpp.o[0m
+[8.172s] [100%] [32m[1mLinking CXX executable drone_position_plotter[0m
+[8.631s] [100%] Built target drone_position_plotter
+[8.637s] Invoked command in '/home/klingjac/ws_offboard_control/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/home/klingjac/ws_offboard_control/install/px4_ros_com:/opt/ros/humble:/home/klingjac/ws_offboard_control/install/px4_offboard LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/klingjac/ws_offboard_control/install/px4_ros_com/lib /usr/bin/cmake --build /home/klingjac/ws_offboard_control/build/px4_ros_com -- -j20 -l20
+[8.655s] Invoking command in '/home/klingjac/ws_offboard_control/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/home/klingjac/ws_offboard_control/install/px4_ros_com:/opt/ros/humble:/home/klingjac/ws_offboard_control/install/px4_offboard LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/klingjac/ws_offboard_control/install/px4_ros_com/lib /usr/bin/cmake --install /home/klingjac/ws_offboard_control/build/px4_ros_com
+[8.658s] -- Install configuration: ""
+[8.658s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[8.658s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[8.658s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[8.658s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[8.659s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/drone_position_plotter
+[8.662s] -- Set runtime path of "/home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/drone_position_plotter" to ""
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/include/px4_ros_com
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/libframe_transforms.so
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[8.662s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[8.663s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.dsv
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[8.663s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/package.xml
+[8.664s] Invoked command in '/home/klingjac/ws_offboard_control/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/home/klingjac/ws_offboard_control/install/px4_ros_com:/opt/ros/humble:/home/klingjac/ws_offboard_control/install/px4_offboard LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/klingjac/ws_offboard_control/install/px4_ros_com/lib /usr/bin/cmake --install /home/klingjac/ws_offboard_control/build/px4_ros_com

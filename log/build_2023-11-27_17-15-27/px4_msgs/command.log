@@ -1,0 +1,4 @@
+Invoking command in '/home/klingjac/ws_offboard_control/build/px4_msgs': /usr/bin/cmake --build /home/klingjac/ws_offboard_control/build/px4_msgs -- -j20 -l20
+Invoked command in '/home/klingjac/ws_offboard_control/build/px4_msgs' returned '0': /usr/bin/cmake --build /home/klingjac/ws_offboard_control/build/px4_msgs -- -j20 -l20
+Invoking command in '/home/klingjac/ws_offboard_control/build/px4_msgs': /usr/bin/cmake --install /home/klingjac/ws_offboard_control/build/px4_msgs
+Invoked command in '/home/klingjac/ws_offboard_control/build/px4_msgs' returned '0': /usr/bin/cmake --install /home/klingjac/ws_offboard_control/build/px4_msgs

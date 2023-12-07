@@ -1,0 +1,260 @@
+[0.518s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.519s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcc9d1388e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcc9db26e00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcc9db26e00>>)
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.540s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/klingjac/ws_offboard_control/src'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(px4_visualize) by extension 'ros'
+[0.562s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_visualize' with type 'ros.ament_python' and name 'px4_offboard'
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.587s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/klingjac/ws_offboard_control/src/install
+[0.589s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/klingjac/ws_offboard_control/src/px4_visualize/install
+[0.590s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/klingjac/ws_offboard_control/src/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/klingjac/ws_offboard_control/src/install/px4_msgs', 'merge_install': False, 'path': '/home/klingjac/ws_offboard_control/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.638s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/klingjac/ws_offboard_control/src/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/klingjac/ws_offboard_control/src/install/px4_offboard', 'merge_install': False, 'path': '/home/klingjac/ws_offboard_control/src/px4_visualize', 'symlink_install': False, 'test_result_base': None}
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.639s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/klingjac/ws_offboard_control/src/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/klingjac/ws_offboard_control/src/install/px4_ros_com', 'merge_install': False, 'path': '/home/klingjac/ws_offboard_control/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.639s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.642s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/klingjac/ws_offboard_control/src/px4_msgs' with build type 'ament_cmake'
+[0.642s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/klingjac/ws_offboard_control/src/px4_msgs'
+[0.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.647s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/klingjac/ws_offboard_control/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/klingjac/ws_offboard_control/src/build/px4_msgs -- -j20 -l20
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/klingjac/ws_offboard_control/src/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/klingjac/ws_offboard_control/src/build/px4_msgs -- -j20 -l20
+[4.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/klingjac/ws_offboard_control/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/klingjac/ws_offboard_control/src/build/px4_msgs
+[5.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs' for CMake module files
+[5.066s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs' for CMake config files
+[5.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[5.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[5.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/klingjac/ws_offboard_control/src/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/klingjac/ws_offboard_control/src/build/px4_msgs
+[5.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[5.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib'
+[5.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[5.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[5.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[5.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[5.134s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/bin'
+[5.134s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[5.134s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib/python3.10/site-packages'
+[5.134s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/bin'
+[5.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.ps1'
+[5.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.dsv'
+[5.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.sh'
+[5.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.bash'
+[5.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.zsh'
+[5.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[8.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[8.145s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs' for CMake module files
+[8.146s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs' for CMake config files
+[8.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[8.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[8.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[8.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[8.148s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib'
+[8.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[8.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[8.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[8.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[8.150s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/bin'
+[8.150s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[8.150s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib/python3.10/site-packages'
+[8.150s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_msgs/bin'
+[8.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.ps1'
+[8.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.dsv'
+[8.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.sh'
+[8.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.bash'
+[8.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/px4_msgs/package.zsh'
+[8.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/klingjac/ws_offboard_control/src/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[8.153s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/klingjac/ws_offboard_control/src/px4_visualize' with build type 'ament_python'
+[8.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'ament_prefix_path')
+[8.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.ps1'
+[8.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.dsv'
+[8.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.sh'
+[8.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.163s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/klingjac/ws_offboard_control/src/px4_ros_com' with build type 'ament_cmake'
+[8.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/klingjac/ws_offboard_control/src/px4_ros_com'
+[8.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/klingjac/ws_offboard_control/src/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/klingjac/ws_offboard_control/src/build/px4_ros_com -- -j20 -l20
+[8.539s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/klingjac/ws_offboard_control/src/px4_visualize'
+[8.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/klingjac/ws_offboard_control/src/px4_visualize': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/klingjac/ws_offboard_control/src/build/px4_offboard/prefix_override:/home/klingjac/ws_offboard_control/src/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/px4_offboard build --build-base /home/klingjac/ws_offboard_control/src/build/px4_offboard/build install --record /home/klingjac/ws_offboard_control/src/build/px4_offboard/install.log --single-version-externally-managed
+[9.303s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_offboard' for CMake module files
+[9.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/klingjac/ws_offboard_control/src/px4_visualize' returned '0': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/klingjac/ws_offboard_control/src/build/px4_offboard/prefix_override:/home/klingjac/ws_offboard_control/src/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/px4_offboard build --build-base /home/klingjac/ws_offboard_control/src/build/px4_offboard/build install --record /home/klingjac/ws_offboard_control/src/build/px4_offboard/install.log --single-version-externally-managed
+[9.304s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_offboard' for CMake config files
+[9.305s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_offboard/lib'
+[9.305s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_offboard/bin'
+[9.305s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_offboard/lib/pkgconfig/px4_offboard.pc'
+[9.305s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_offboard/lib/python3.10/site-packages'
+[9.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath')
+[9.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/hook/pythonpath.ps1'
+[9.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/hook/pythonpath.dsv'
+[9.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/hook/pythonpath.sh'
+[9.307s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_offboard/bin'
+[9.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard)
+[9.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/package.ps1'
+[9.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/package.dsv'
+[9.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/package.sh'
+[9.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/package.bash'
+[9.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/px4_offboard/package.zsh'
+[9.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/klingjac/ws_offboard_control/src/install/px4_offboard/share/colcon-core/packages/px4_offboard)
+[13.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/klingjac/ws_offboard_control/src/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/klingjac/ws_offboard_control/src/build/px4_ros_com -- -j20 -l20
+[13.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/klingjac/ws_offboard_control/src/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/klingjac/ws_offboard_control/src/build/px4_ros_com
+[13.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[13.359s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com' for CMake module files
+[13.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/klingjac/ws_offboard_control/src/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs:/home/klingjac/ws_offboard_control/src/install/px4_ros_com:/home/klingjac/ws_offboard_control/src/px4_visualize/install/px4_offboard:/home/klingjac/ws_offboard_control/src/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/src/install/px4_msgs/lib:/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/klingjac/ws_offboard_control/src/build/px4_ros_com
+[13.360s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com' for CMake config files
+[13.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[13.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[13.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[13.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[13.363s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib'
+[13.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[13.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[13.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[13.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[13.364s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/bin'
+[13.364s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[13.365s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib/python3.10/site-packages'
+[13.365s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/bin'
+[13.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[13.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[13.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.sh'
+[13.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.bash'
+[13.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[13.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[13.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[13.403s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com' for CMake module files
+[13.404s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com' for CMake config files
+[13.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[13.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[13.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[13.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[13.406s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib'
+[13.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[13.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[13.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[13.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[13.409s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/bin'
+[13.409s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[13.409s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/lib/python3.10/site-packages'
+[13.409s] Level 1:colcon.colcon_core.environment:checking '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/bin'
+[13.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[13.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[13.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.sh'
+[13.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.bash'
+[13.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[13.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/klingjac/ws_offboard_control/src/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[13.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.413s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.530s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.530s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[13.530s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/klingjac/ws_offboard_control/src/install/local_setup.ps1'
+[13.532s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/klingjac/ws_offboard_control/src/install/_local_setup_util_ps1.py'
+[13.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/klingjac/ws_offboard_control/src/install/setup.ps1'
+[13.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/klingjac/ws_offboard_control/src/install/local_setup.sh'
+[13.535s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/klingjac/ws_offboard_control/src/install/_local_setup_util_sh.py'
+[13.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/klingjac/ws_offboard_control/src/install/setup.sh'
+[13.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/klingjac/ws_offboard_control/src/install/local_setup.bash'
+[13.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/klingjac/ws_offboard_control/src/install/setup.bash'
+[13.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/klingjac/ws_offboard_control/src/install/local_setup.zsh'
+[13.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/klingjac/ws_offboard_control/src/install/setup.zsh'

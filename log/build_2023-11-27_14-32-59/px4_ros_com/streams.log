@@ -1,0 +1,51 @@
+[0.045s] Invoking command in '/home/klingjac/ws_offboard_control/build/px4_ros_com': AMENT_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/klingjac/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/klingjac/ws_offboard_control/build/px4_ros_com -- -j20 -l20
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target drone_position_plotter[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target debug_vect_advertiser[0m
+[0.071s] [ 16%] Built target frame_transforms
+[0.074s] [ 33%] Built target offboard_control
+[0.075s] [ 50%] Built target sensor_combined_listener
+[0.075s] [ 58%] [32mBuilding CXX object CMakeFiles/drone_position_plotter.dir/src/examples/traj_plot/drone_position_plotter.cpp.o[0m
+[0.078s] [ 75%] Built target debug_vect_advertiser
+[0.078s] [ 91%] Built target vehicle_gps_position_listener
+[0.177s] In file included from [01m[K/home/klingjac/ws_offboard_control/src/px4_ros_com/src/examples/traj_plot/drone_position_plotter.cpp:9[m[K:
+[0.177s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.177s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.177s]       |  [01;35m[K^~~~~~~[m[K
+[6.925s] [100%] [32m[1mLinking CXX executable drone_position_plotter[0m
+[7.368s] [100%] Built target drone_position_plotter
+[7.374s] Invoked command in '/home/klingjac/ws_offboard_control/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/klingjac/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/klingjac/ws_offboard_control/build/px4_ros_com -- -j20 -l20
+[7.389s] Invoking command in '/home/klingjac/ws_offboard_control/build/px4_ros_com': AMENT_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/klingjac/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/klingjac/ws_offboard_control/build/px4_ros_com
+[7.393s] -- Install configuration: ""
+[7.393s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[7.395s] -- Set runtime path of "/home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[7.396s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[7.398s] -- Set runtime path of "/home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[7.398s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[7.399s] -- Set runtime path of "/home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[7.399s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[7.400s] -- Set runtime path of "/home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[7.400s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/drone_position_plotter
+[7.403s] -- Set runtime path of "/home/klingjac/ws_offboard_control/install/px4_ros_com/lib/px4_ros_com/drone_position_plotter" to ""
+[7.403s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[7.403s] -- Installing: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[7.403s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/include/px4_ros_com
+[7.403s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[7.404s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/lib/libframe_transforms.so
+[7.404s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch
+[7.404s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[7.404s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[7.404s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test
+[7.404s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[7.405s] [31mCMake Error at cmake_install.cmake:189 (file):
+[7.405s]   file INSTALL cannot find
+[7.405s]   "/home/klingjac/ws_offboard_control/src/px4_ros_com/examples/models": No
+[7.405s]   such file or directory.
+[7.405s] 
+[7.405s] [0m
+[7.405s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[7.405s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[7.405s] -- Up-to-date: /home/klingjac/ws_offboard_control/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[7.406s] Invoked command in '/home/klingjac/ws_offboard_control/build/px4_ros_com' returned '1': AMENT_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/klingjac/ws_offboard_control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/klingjac/ws_offboard_control/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/klingjac/ws_offboard_control/build/px4_ros_com
